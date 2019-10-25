@@ -15,7 +15,7 @@ int main()
 
 	cin >> a >> b;
 
-	cout << "연산자를 선택해 주세요(ADD: 1, SUB: 2, MUL: 3, DIV: 4를 입력하세요) " << endl;
+	cout << "연산자를 선택해 주세요(ADD: 1, SUB: 2, MUL: 3, DIV: 4. MOD: 5를 입력하세요) " << endl;
 
 	cin >> op;
 
@@ -32,6 +32,10 @@ int main()
 		break;
 	case 4:
 		result = DIV(a, b);
+		break;
+
+	case 5:
+		result = MOD(a, b);
 		break;
 	default:
 		result = 0;

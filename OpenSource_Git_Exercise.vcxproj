@@ -142,6 +142,7 @@
     <ClCompile Include="ADD.cpp" />
     <ClCompile Include="DIV.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MOD.cpp" />
     <ClCompile Include="MUL.cpp" />
     <ClCompile Include="SUB.cpp" />
   </ItemGroup>
